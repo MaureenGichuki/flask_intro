@@ -15,7 +15,7 @@ def services():
     return render_template('services.html')
 
 @app.route('/contacts')
-def officehours():
+def contacts():
     return render_template('contacts.html')
 
 
